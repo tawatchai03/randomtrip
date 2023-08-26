@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
-class KanchanaburiPage extends StatelessWidget {
+class PrachinburiPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return _KanchanaburiPage();
+    return _PrachinburiPageState();
   }
 }
 
-class _KanchanaburiPage extends StatelessWidget {
+class _PrachinburiPageState extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('จังหวัดกาญจนบุรี'),
+        title: Text('จังหวัดปราจีนบุรี'),
       ),
       body: Center(
-        child: Text('หน้านี้เป็นหน้าของจังหวัดกาญจนบุรี'),
+        child: Text('หน้านี้เป็นหน้าของจังหวัดปราจีนบุรี'),
       ),
     );
   }
