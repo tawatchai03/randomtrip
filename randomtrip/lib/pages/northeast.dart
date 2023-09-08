@@ -2,16 +2,26 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:randomtrip/screens/home.dart';
-import 'package:randomtrip/county_n/chiangmai.dart';
-import 'package:randomtrip/county_n/chiangrai.dart';
-import 'package:randomtrip/county_n/maehongson.dart';
-import 'package:randomtrip/county_n/lampang.dart';
-import 'package:randomtrip/county_n/lamphun.dart';
-import 'package:randomtrip/county_n/phrae.dart';
-import 'package:randomtrip/county_n/nan.dart';
-import 'package:randomtrip/county_n/phayao.dart';
-import 'package:randomtrip/county_n/uttaradit.dart';
-import 'package:randomtrip/county_n/tak.dart';
+import 'package:randomtrip/county_nor/amnatcharoen.dart';
+import 'package:randomtrip/county_nor/buengkan.dart';
+import 'package:randomtrip/county_nor/buriram.dart';
+import 'package:randomtrip/county_nor/chaiyaphum.dart';
+import 'package:randomtrip/county_nor/kalasin.dart';
+import 'package:randomtrip/county_nor/khonkaen.dart';
+import 'package:randomtrip/county_nor/loei.dart';
+import 'package:randomtrip/county_nor/mahasarakham.dart';
+import 'package:randomtrip/county_nor/mukdahan.dart';
+import 'package:randomtrip/county_nor/nakhonphanom.dart';
+import 'package:randomtrip/county_nor/nakhonratchasima.dart';
+import 'package:randomtrip/county_nor/nongbualamphu.dart';
+import 'package:randomtrip/county_nor/nongkhai.dart';
+import 'package:randomtrip/county_nor/roiet.dart';
+import 'package:randomtrip/county_nor/sakonnakhon.dart';
+import 'package:randomtrip/county_nor/sisaket.dart';
+import 'package:randomtrip/county_nor/surin.dart';
+import 'package:randomtrip/county_nor/ubonratchathani.dart';
+import 'package:randomtrip/county_nor/udonthani.dart';
+import 'package:randomtrip/county_nor/yasothon.dart';
 
 class NortheastPage extends StatelessWidget {
   @override
@@ -40,182 +50,182 @@ class _NortheastPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_7.png",
+                    iconAsset: "assets/images/img_58.png",
                     name: "กาฬสินธุ์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return ChiangmaiPage();
+                        return KalasinPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_8.png",
+                    iconAsset: "assets/images/img_59.png",
                     name: "ขอนแก่น",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return ChiangraiPage();
+                        return KhonkaenPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_9.png",
+                    iconAsset: "assets/images/img_60.png",
                     name: "ชัยภูมิ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return MaehongsonPage();
+                        return ChaiyaphumPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_12.png",
+                    iconAsset: "assets/images/img_61.png",
                     name: "นครพนม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return LamphunPage();
+                        return NakhonphanomPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_11.png",
+                    iconAsset: "assets/images/img_62.png",
                     name: "นครราชสีมา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return LampangPage();
+                        return NakhonratchasimaPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_11.png",
+                    iconAsset: "assets/images/img_63.png",
                     name: "บึงกาฬ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return PhayaoPage();
+                        return BuengkanPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_13.png",
+                    iconAsset: "assets/images/img_64.png",
                     name: "บุรีรัมย์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return PhraePage();
+                        return BuriramPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_20.png",
+                    iconAsset: "assets/images/img_65.png",
                     name: "มหาสารคาม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return NanPage();
+                        return MahasarakhamPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_14.png",
+                    iconAsset: "assets/images/img_66.png",
                     name: "มุกดาหาร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return UttaraditPage();
+                        return MukdahanPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_67.png",
                     name: "ยโสธร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return YasothonPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_68.png",
                     name: "ร้อยเอ็ด",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return RoietPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_69.png",
                     name: "เลย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return LoeiPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_70.png",
                     name: "ศรีสะเกษ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return SisaketPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_71.png",
                     name: "สกลนคร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return SakonnakhonPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_72.png",
                     name: "สุรินทร์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return SurinPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_73.png",
                     name: "หนองคาย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return NongkhaiPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_74.png",
                     name: "หนองบัวลำภู",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return NongbualamphuPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_75.png",
                     name: "อำนาจเจริญ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return AmnatcharoenPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_76.png",
                     name: "อุดรธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return UbonPage();
                       }));
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
+                    iconAsset: "assets/images/img_77.png",
                     name: "อุบลราชธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
+                        return UdonPage();
                       }));
                     },
                   )
