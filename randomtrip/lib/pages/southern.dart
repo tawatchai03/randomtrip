@@ -12,7 +12,7 @@ import 'package:randomtrip/county_n/phrae.dart';
 import 'package:randomtrip/county_n/nan.dart';
 import 'package:randomtrip/county_n/phayao.dart';
 import 'package:randomtrip/county_n/uttaradit.dart';
-import 'package:randomtrip/county_n/tak.dart';
+import 'package:randomtrip/county_w/tak.dart';
 import 'package:randomtrip/county_c/sukhothai.dart';
 import 'package:randomtrip/county_c/phitsanulok.dart';
 import 'package:randomtrip/county_c/kamphaengphet.dart';

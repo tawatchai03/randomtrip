@@ -11,7 +11,6 @@ import 'package:randomtrip/county_n/phrae.dart';
 import 'package:randomtrip/county_n/nan.dart';
 import 'package:randomtrip/county_n/phayao.dart';
 import 'package:randomtrip/county_n/uttaradit.dart';
-import 'package:randomtrip/county_n/tak.dart';
 
 class NorthernPage extends StatelessWidget {
   @override
@@ -119,16 +118,7 @@ class _NorthernPageState extends StatelessWidget {
                         return UttaraditPage();
                       }));
                     },
-                  ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_15.png",
-                    name: "ตาก",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return TakPage();
-                      }));
-                    },
-                  ),
+                  )
                 ],
               ),
             ),

@@ -4,9 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:randomtrip/screens/home.dart';
 import 'package:randomtrip/county_w/kanchanaburi.dart';
 import 'package:randomtrip/county_w/prachuapkhirikhan.dart';
-import 'package:randomtrip/county_w/suphanburi.dart';
 import 'package:randomtrip/county_w/phetchaburi.dart';
-import 'package:randomtrip/county_w/nakhonpathom.dart';
+import 'package:randomtrip/county_w/tak.dart';
 import 'package:randomtrip/county_w/ratchaburi.dart';
 
 class WesternregionPage extends StatelessWidget {
@@ -54,15 +53,6 @@ class _WesternregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_24.png",
-                    name: "สุพรรณบุรี",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return SuphanburiPage();
-                      }));
-                    },
-                  ),
-                  MenuFeature(
                     iconAsset: "assets/images/img_25.png",
                     name: "เพชรบุรี",
                     onTap: () {
@@ -73,10 +63,10 @@ class _WesternregionPageState extends StatelessWidget {
                   ),
                   MenuFeature(
                     iconAsset: "assets/images/img_26.png",
-                    name: "นครปฐม",
+                    name: "ตาก",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return NakhonpathomPage();
+                        return TakPage();
                       }));
                     },
                   ),
