@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:randomtrip/screens/home.dart';
 import 'package:randomtrip/county_n/chiangmai.dart';
 import 'package:randomtrip/county_n/chiangrai.dart';
-import 'package:randomtrip/county_n/phetchabun.dart';
+import 'package:randomtrip/county_c/phetchabun.dart';
 import 'package:randomtrip/county_n/maehongson.dart';
 import 'package:randomtrip/county_n/lampang.dart';
 import 'package:randomtrip/county_n/lamphun.dart';
@@ -13,10 +13,10 @@ import 'package:randomtrip/county_n/nan.dart';
 import 'package:randomtrip/county_n/phayao.dart';
 import 'package:randomtrip/county_n/uttaradit.dart';
 import 'package:randomtrip/county_n/tak.dart';
-import 'package:randomtrip/county_n/sukhothai.dart';
-import 'package:randomtrip/county_n/phitsanulok.dart';
-import 'package:randomtrip/county_n/kamphaengphet.dart';
-import 'package:randomtrip/county_n/phichit.dart';
+import 'package:randomtrip/county_c/sukhothai.dart';
+import 'package:randomtrip/county_c/phitsanulok.dart';
+import 'package:randomtrip/county_c/kamphaengphet.dart';
+import 'package:randomtrip/county_c/phichit.dart';
 
 class SouthernPage extends StatelessWidget {
   @override

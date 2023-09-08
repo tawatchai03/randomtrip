@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:randomtrip/screens/home.dart';
 import 'package:randomtrip/county_n/chiangmai.dart';
 import 'package:randomtrip/county_n/chiangrai.dart';
-import 'package:randomtrip/county_n/phetchabun.dart';
 import 'package:randomtrip/county_n/maehongson.dart';
 import 'package:randomtrip/county_n/lampang.dart';
 import 'package:randomtrip/county_n/lamphun.dart';
@@ -13,10 +12,6 @@ import 'package:randomtrip/county_n/nan.dart';
 import 'package:randomtrip/county_n/phayao.dart';
 import 'package:randomtrip/county_n/uttaradit.dart';
 import 'package:randomtrip/county_n/tak.dart';
-import 'package:randomtrip/county_n/sukhothai.dart';
-import 'package:randomtrip/county_n/phitsanulok.dart';
-import 'package:randomtrip/county_n/kamphaengphet.dart';
-import 'package:randomtrip/county_n/phichit.dart';
 
 class NortheastPage extends StatelessWidget {
   @override
@@ -134,51 +129,6 @@ class _NortheastPageState extends StatelessWidget {
                       }));
                     },
                   ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_16.png",
-                    name: "สุโขทัย",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return SukhothaiPage();
-                      }));
-                    },
-                  ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_17.png",
-                    name: "พิษณุโลก",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return PhitsanulokPage();
-                      }));
-                    },
-                  ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_18.png",
-                    name: "กำแพงเพชร",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return KamphaengphetPage();
-                      }));
-                    },
-                  ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_10.png",
-                    name: "เพชรบูรณ์",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return PhetchabunPage();
-                      }));
-                    },
-                  ),
-                  MenuFeature(
-                    iconAsset: "assets/images/img_19.png",
-                    name: "พิจิตร",
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) {
-                        return PhichitPage();
-                      }));
-                    },
-                  )
                 ],
               ),
             ),
