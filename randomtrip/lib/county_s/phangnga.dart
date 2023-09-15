@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
-class AmnatcharoenPage extends StatelessWidget {
+class phangngaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return _AmnatcharoenPageState();
+    return _phangngaPageState();
   }
 }
 
-class _AmnatcharoenPageState extends StatelessWidget {
+class _phangngaPageState extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('จังหวัดอำนาจเจริญ'),
+        title: Text('จังหวัดพังงา'),
       ),
       body: Center(
-        child: Text('หน้านี้เป็นหน้าของจังหวัดอำนาจเจริญ'),
+        child: Text('หน้านี้เป็นหน้าของจังหวัดพังงา'),
       ),
     );
   }
