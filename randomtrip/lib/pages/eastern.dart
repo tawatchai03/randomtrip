@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:randomtrip/screens/home.dart';
+import 'package:randomtrip/pages/main.dart';
 import 'package:randomtrip/county_e/chachoengsao.dart';
 import 'package:randomtrip/county_e/chanthaburi.dart';
 import 'package:randomtrip/county_e/chonburi.dart';
@@ -118,7 +118,7 @@ class _EasternPageState extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            Home()), // HomePage คือหน้าแรกของแอป
+                            MainPage()), // HomePage คือหน้าแรกของแอป
                     (route) => false, // ให้ล้าง Stack ทุกหน้าที่เหลือออกไป
                   );
                 },

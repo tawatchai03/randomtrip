@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:randomtrip/screens/home.dart';
+import 'package:randomtrip/pages/main.dart';
 import 'package:randomtrip/county_n/chiangmai.dart';
 import 'package:randomtrip/county_n/chiangrai.dart';
 import 'package:randomtrip/county_n/maehongson.dart';
@@ -84,7 +84,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_11.png",
+                    iconAsset: "assets/images/img_21.png",
                     name: "พะเยา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -138,7 +138,7 @@ class _NorthernPageState extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            Home()), // HomePage คือหน้าแรกของแอป
+                            MainPage()), // HomePage คือหน้าแรกของแอป
                     (route) => false, // ให้ล้าง Stack ทุกหน้าที่เหลือออกไป
                   );
                 },

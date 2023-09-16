@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         './pages/eastern': (context) => EasternPage(),
         './pages/westernregion': (context) => WesternregionPage(),
       },
+      
     );
   }
 }
