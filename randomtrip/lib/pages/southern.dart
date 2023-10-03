@@ -44,7 +44,7 @@ class _SouthernPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_78.png",
+                    iconAsset: "assets/images/img_78.jpg",
                     name: "กระบี่",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -53,7 +53,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_79.png",
+                    iconAsset: "assets/images/img_79.jpg",
                     name: "ชุมพร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -62,7 +62,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_80.png",
+                    iconAsset: "assets/images/img_80.jpg",
                     name: "ตรัง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -71,7 +71,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_81.png",
+                    iconAsset: "assets/images/img_81.jpg",
                     name: "นครศรีธรรมราช",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -80,7 +80,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_82.png",
+                    iconAsset: "assets/images/img_82.jpg",
                     name: "นราธิวาส",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -89,7 +89,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_83.png",
+                    iconAsset: "assets/images/img_83.jpg",
                     name: "ปัตตานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -98,7 +98,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_84.png",
+                    iconAsset: "assets/images/img_84.jpg",
                     name: "พังงา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -107,7 +107,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_85.png",
+                    iconAsset: "assets/images/img_85.jpg",
                     name: "พัทลุง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -116,7 +116,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_86.png",
+                    iconAsset: "assets/images/img_86.jpg",
                     name: "ภูเก็ต",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -125,7 +125,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_87.png",
+                    iconAsset: "assets/images/img_87.jpg",
                     name: "ยะลา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -134,7 +134,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_88.png",
+                    iconAsset: "assets/images/img_88.jpg",
                     name: "ระนอง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -143,7 +143,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_89.png",
+                    iconAsset: "assets/images/img_89.jpg",
                     name: "สงขลา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -152,7 +152,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_90.png",
+                    iconAsset: "assets/images/img_90.jpg",
                     name: "สตูล",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -161,7 +161,7 @@ class _SouthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_91.png",
+                    iconAsset: "assets/images/img_91.jpg",
                     name: "สุราษฎร์ธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {

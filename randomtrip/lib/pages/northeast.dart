@@ -50,7 +50,7 @@ class _NortheastPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_58.png",
+                    iconAsset: "assets/images/img_58.jpg",
                     name: "กาฬสินธุ์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -59,7 +59,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_59.png",
+                    iconAsset: "assets/images/img_59.jpg",
                     name: "ขอนแก่น",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -68,7 +68,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_60.png",
+                    iconAsset: "assets/images/img_60.jpg",
                     name: "ชัยภูมิ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -77,7 +77,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_61.png",
+                    iconAsset: "assets/images/img_61.jpg",
                     name: "นครพนม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -86,7 +86,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_62.png",
+                    iconAsset: "assets/images/img_62.jpg",
                     name: "นครราชสีมา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -95,7 +95,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_63.png",
+                    iconAsset: "assets/images/img_63.jpg",
                     name: "บึงกาฬ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -104,7 +104,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_64.png",
+                    iconAsset: "assets/images/img_64.jpg",
                     name: "บุรีรัมย์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -113,7 +113,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_65.png",
+                    iconAsset: "assets/images/img_65.jpg",
                     name: "มหาสารคาม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -122,7 +122,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_66.png",
+                    iconAsset: "assets/images/img_66.jpg",
                     name: "มุกดาหาร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -131,7 +131,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_67.png",
+                    iconAsset: "assets/images/img_67.jpg",
                     name: "ยโสธร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -140,7 +140,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_68.png",
+                    iconAsset: "assets/images/img_68.jpg",
                     name: "ร้อยเอ็ด",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -149,7 +149,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_69.png",
+                    iconAsset: "assets/images/img_69.jpg",
                     name: "เลย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -158,7 +158,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_70.png",
+                    iconAsset: "assets/images/img_70.jpg",
                     name: "ศรีสะเกษ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -167,7 +167,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_71.png",
+                    iconAsset: "assets/images/img_71.jpg",
                     name: "สกลนคร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -176,7 +176,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_72.png",
+                    iconAsset: "assets/images/img_72.jpg",
                     name: "สุรินทร์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -185,7 +185,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_73.png",
+                    iconAsset: "assets/images/img_73.jpg",
                     name: "หนองคาย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -194,7 +194,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_74.png",
+                    iconAsset: "assets/images/img_74.jpg",
                     name: "หนองบัวลำภู",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -203,7 +203,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_75.png",
+                    iconAsset: "assets/images/img_75.jpg",
                     name: "อำนาจเจริญ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -212,7 +212,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_76.png",
+                    iconAsset: "assets/images/img_76.jpg",
                     name: "อุดรธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -221,7 +221,7 @@ class _NortheastPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_77.png",
+                    iconAsset: "assets/images/img_77.jpg",
                     name: "อุบลราชธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {

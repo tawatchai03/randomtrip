@@ -35,7 +35,7 @@ class _WesternregionPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_22.png",
+                    iconAsset: "assets/images/img_22.jpg",
                     name: "กาญจนบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -44,7 +44,7 @@ class _WesternregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_23.png",
+                    iconAsset: "assets/images/img_23.jpg",
                     name: "ประจวบคีรีขันธ์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -53,7 +53,7 @@ class _WesternregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_25.png",
+                    iconAsset: "assets/images/img_25.jpg",
                     name: "เพชรบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -62,7 +62,7 @@ class _WesternregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_26.png",
+                    iconAsset: "assets/images/img_26.jpg",
                     name: "ตาก",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -71,7 +71,7 @@ class _WesternregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_27.png",
+                    iconAsset: "assets/images/img_27.jpg",
                     name: "ราชบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {

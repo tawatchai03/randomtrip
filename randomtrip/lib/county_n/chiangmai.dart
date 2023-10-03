@@ -170,12 +170,12 @@ class _RandomTravelScreenState extends State<RandomTravelScreen> {
               ),
               Text(
                 'สถานที่เที่ยวที่คุณได้คือ:',
-                style: TextStyle(fontSize: 24),
+                style: TextStyle(fontSize: 18),
               ),
               Text(
                 currentTravelPlace!
                     .placeName, // Display the selected place name
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 40),
               ElevatedButton(

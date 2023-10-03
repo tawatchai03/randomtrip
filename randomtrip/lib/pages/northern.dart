@@ -39,7 +39,7 @@ class _NorthernPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_7.png",
+                    iconAsset: "assets/images/img_7.jpg",
                     name: "เชียงใหม่",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -48,7 +48,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_8.png",
+                    iconAsset: "assets/images/img_8.jpg",
                     name: "เชียงราย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -57,7 +57,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_9.png",
+                    iconAsset: "assets/images/img_9.jpg",
                     name: "แม่ฮ่องสอน",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -66,7 +66,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_12.png",
+                    iconAsset: "assets/images/img_12.jpg",
                     name: "ลำพูน",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -75,7 +75,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_11.png",
+                    iconAsset: "assets/images/img_11.jpg",
                     name: "ลำปาง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -84,7 +84,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_21.png",
+                    iconAsset: "assets/images/img_21.jpg",
                     name: "พะเยา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -93,7 +93,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_13.png",
+                    iconAsset: "assets/images/img_13.jpg",
                     name: "แพร่",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -102,7 +102,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_20.png",
+                    iconAsset: "assets/images/img_20.jpg",
                     name: "น่าน",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -111,7 +111,7 @@ class _NorthernPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_14.png",
+                    iconAsset: "assets/images/img_14.jpg",
                     name: "อุตรดิตถ์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {

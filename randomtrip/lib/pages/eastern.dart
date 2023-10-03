@@ -37,7 +37,7 @@ class _EasternPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_28.png",
+                    iconAsset: "assets/images/img_28.jpg",
                     name: "จันทบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -46,7 +46,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_29.png",
+                    iconAsset: "assets/images/img_29.jpg",
                     name: "ฉะเชิงเทรา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -55,7 +55,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_30.png",
+                    iconAsset: "assets/images/img_30.jpg",
                     name: "ชลบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -64,7 +64,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_31.png",
+                    iconAsset: "assets/images/img_31.jpg",
                     name: "ตราด",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -73,7 +73,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_32.png",
+                    iconAsset: "assets/images/img_32.jpg",
                     name: "ปราจีนบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -82,7 +82,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_33.png",
+                    iconAsset: "assets/images/img_33.jpg",
                     name: "ระยอง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -91,7 +91,7 @@ class _EasternPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_34.png",
+                    iconAsset: "assets/images/img_34.jpg",
                     name: "สระแก้ว",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {

@@ -52,7 +52,7 @@ class _CentralregionPageState extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   MenuFeature(
-                    iconAsset: "assets/images/img_43.png",
+                    iconAsset: "assets/images/img_43.jpg",
                     name: "กรุงเทพฯ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -61,7 +61,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_52.png",
+                    iconAsset: "assets/images/img_52.jpg",
                     name: "ปทุมธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -70,7 +70,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_51.png",
+                    iconAsset: "assets/images/img_51.jpg",
                     name: "นนทบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -79,7 +79,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_53.png",
+                    iconAsset: "assets/images/img_53.jpg",
                     name: "พระนครศรีอยุธยา",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -88,7 +88,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_47.png",
+                    iconAsset: "assets/images/img_47.jpg",
                     name: "นครนายก",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -97,7 +97,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_48.png",
+                    iconAsset: "assets/images/img_48.jpg",
                     name: "นครปฐม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -106,7 +106,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_49.png",
+                    iconAsset: "assets/images/img_49.jpg",
                     name: "นครสวรรค์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -115,7 +115,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_45.png",
+                    iconAsset: "assets/images/img_45.jpg",
                     name: "ชัยนาท",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -124,7 +124,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_57.png",
+                    iconAsset: "assets/images/img_57.jpg",
                     name: "ลพบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -133,7 +133,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_50.png",
+                    iconAsset: "assets/images/img_50.jpg",
                     name: "สมุทรปราการ",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -142,7 +142,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_39.png",
+                    iconAsset: "assets/images/img_39.jpg",
                     name: "สุโขทัย",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -151,7 +151,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_55.png",
+                    iconAsset: "assets/images/img_55.jpg",
                     name: "พิษณุโลก",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -160,7 +160,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_44.png",
+                    iconAsset: "assets/images/img_44.jpg",
                     name: "กำแพงเพชร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -169,7 +169,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_56.png",
+                    iconAsset: "assets/images/img_56.jpg",
                     name: "เพชรบูรณ์",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -178,7 +178,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_54.png",
+                    iconAsset: "assets/images/img_54.jpg",
                     name: "พิจิตร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -187,7 +187,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_35.png",
+                    iconAsset: "assets/images/img_35.jpg",
                     name: "สมุทรสงคราม",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -196,7 +196,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_36.png",
+                    iconAsset: "assets/images/img_36.jpg",
                     name: "สมุทรสาคร",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -205,7 +205,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_37.png",
+                    iconAsset: "assets/images/img_37.jpg",
                     name: "สระบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -214,7 +214,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_38.png",
+                    iconAsset: "assets/images/img_38.jpg",
                     name: "สิงห์บุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -223,7 +223,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_40.png",
+                    iconAsset: "assets/images/img_40.jpg",
                     name: "สุพรรณบุรี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -232,7 +232,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_41.png",
+                    iconAsset: "assets/images/img_41.jpg",
                     name: "อ่างทอง",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -241,7 +241,7 @@ class _CentralregionPageState extends StatelessWidget {
                     },
                   ),
                   MenuFeature(
-                    iconAsset: "assets/images/img_42.png",
+                    iconAsset: "assets/images/img_42.jpg",
                     name: "อุทัยธานี",
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (_) {
